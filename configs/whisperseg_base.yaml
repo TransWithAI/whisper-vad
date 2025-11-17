@@ -1,0 +1,72 @@
+# WhisperSeg-style generative finetuning of Whisper-base.
+
+model:
+  whisper_model_name: "openai/whisper-base"
+  freeze_encoder: true
+  gradient_checkpointing: true
+  dropout: 0.1
+
+# Data and preprocessing parameters for WhisperSeg.
+data:
+  dataset_path: "/path/to/your/vad_dataset"
+  train_split: "train"
+  val_split: "validation"
+  test_split: "test"
+  num_workers: 32
+  streaming: false
+  max_train_samples: null
+  max_val_samples: null
+  max_test_samples: null
+  train_dataset_length: 54469
+  val_dataset_length: 6053
+  total_spec_columns: 3000
+  spec_time_step: 0.01
+  sampling_rate: 16000
+  spec_augment: true
+  time_mask_param: 10
+  freq_mask_param: 27
+  species: "human"
+  ignore_cluster: false
+  cluster_codebook:
+    Vocal: 0
+
+training:
+  batch_size: 128
+  learning_rate: 0.0015
+  weight_decay: 0.00001
+  warmup_steps: 500
+  scheduler: "linear"
+  num_training_steps: null  # Will be inferred from dataloader length if left null
+  max_epochs: 20
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  val_check_interval: 1.0
+  log_every_n_steps: 10
+
+loss:
+  label_smoothing: 0.0
+
+validation:
+  max_generation_length: 488
+  num_beams: 1
+  early_stopping: true
+  parallel_metrics: true
+  use_cache: true
+
+monitor_metric: "val/segment_f1"
+monitor_mode: "max"
+save_top_k: 3
+
+early_stopping:
+  enabled: true
+  patience: 5
+
+accelerator: "auto"
+devices: 1
+precision: "bf16-true"
+
+logger: "tensorboard"
+project_name: "whisper-vad"
+experiment_name: "whisperseg_base"
+
+seed: 42

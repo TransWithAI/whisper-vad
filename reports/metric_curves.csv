@@ -1,0 +1,419 @@
+experiment,tag,step,value
+DETR-VAD Base,val/loss,212,2.2401111125946045
+DETR-VAD Base,val/loss,425,1.8599647283554077
+DETR-VAD Base,val/loss,638,1.8074722290039062
+DETR-VAD Base,val/loss,851,1.7852963209152222
+DETR-VAD Base,val/loss,1064,1.7817143201828003
+DETR-VAD Base,val/loss,1277,1.7645845413208008
+DETR-VAD Base,val/loss,1490,1.751460075378418
+DETR-VAD Base,val/loss,1703,1.744950771331787
+DETR-VAD Base,val/loss,1916,1.7483700513839722
+DETR-VAD Base,val/loss,2129,1.727920413017273
+DETR-VAD Base,val/loss,2342,1.7219605445861816
+DETR-VAD Base,val/loss,2555,1.7217988967895508
+DETR-VAD Base,val/loss,2768,1.7211467027664185
+DETR-VAD Base,val/loss,2981,1.7143712043762207
+DETR-VAD Base,val/loss,3194,1.7217978239059448
+DETR-VAD Base,val/loss,3407,1.7203329801559448
+DETR-VAD Base,val/loss,3620,1.7226115465164185
+DETR-VAD Base,val/detection_precision,212,0.10527344048023224
+DETR-VAD Base,val/detection_precision,425,0.13604627549648285
+DETR-VAD Base,val/detection_precision,638,0.15071412920951843
+DETR-VAD Base,val/detection_precision,851,0.15728329122066498
+DETR-VAD Base,val/detection_precision,1064,0.1597079634666443
+DETR-VAD Base,val/detection_precision,1277,0.16501039266586304
+DETR-VAD Base,val/detection_precision,1490,0.1656140387058258
+DETR-VAD Base,val/detection_precision,1703,0.16835413873195648
+DETR-VAD Base,val/detection_precision,1916,0.1685207039117813
+DETR-VAD Base,val/detection_precision,2129,0.17150333523750305
+DETR-VAD Base,val/detection_precision,2342,0.17278359830379486
+DETR-VAD Base,val/detection_precision,2555,0.17270992696285248
+DETR-VAD Base,val/detection_precision,2768,0.17196083068847656
+DETR-VAD Base,val/detection_precision,2981,0.17345471680164337
+DETR-VAD Base,val/detection_precision,3194,0.17296651005744934
+DETR-VAD Base,val/detection_precision,3407,0.17266187071800232
+DETR-VAD Base,val/detection_precision,3620,0.17306768894195557
+DETR-VAD Base,val/detection_recall,212,0.45639288425445557
+DETR-VAD Base,val/detection_recall,425,0.5774767398834229
+DETR-VAD Base,val/detection_recall,638,0.5986452102661133
+DETR-VAD Base,val/detection_recall,851,0.5961049795150757
+DETR-VAD Base,val/detection_recall,1064,0.5927180647850037
+DETR-VAD Base,val/detection_recall,1277,0.6045724153518677
+DETR-VAD Base,val/detection_recall,1490,0.5994919538497925
+DETR-VAD Base,val/detection_recall,1703,0.6054191589355469
+DETR-VAD Base,val/detection_recall,1916,0.6028789281845093
+DETR-VAD Base,val/detection_recall,2129,0.6104995608329773
+DETR-VAD Base,val/detection_recall,2342,0.6138865351676941
+DETR-VAD Base,val/detection_recall,2555,0.6130397915840149
+DETR-VAD Base,val/detection_recall,2768,0.6096528172492981
+DETR-VAD Base,val/detection_recall,2981,0.6130397915840149
+DETR-VAD Base,val/detection_recall,3194,0.6121930480003357
+DETR-VAD Base,val/detection_recall,3407,0.6096528172492981
+DETR-VAD Base,val/detection_recall,3620,0.6104995608329773
+DETR-VAD Base,val/detection_f1,212,0.17108364403247833
+DETR-VAD Base,val/detection_f1,425,0.22021280229091644
+DETR-VAD Base,val/detection_f1,638,0.24080349504947662
+DETR-VAD Base,val/detection_f1,851,0.2488948404788971
+DETR-VAD Base,val/detection_f1,1064,0.2516171932220459
+DETR-VAD Base,val/detection_f1,1277,0.2592589259147644
+DETR-VAD Base,val/detection_f1,1490,0.2595304548740387
+DETR-VAD Base,val/detection_f1,1703,0.26344844698905945
+DETR-VAD Base,val/detection_f1,1916,0.26341068744659424
+DETR-VAD Base,val/detection_f1,2129,0.2677805423736572
+DETR-VAD Base,val/detection_f1,2342,0.26966676115989685
+DETR-VAD Base,val/detection_f1,2555,0.26949527859687805
+DETR-VAD Base,val/detection_f1,2768,0.26825597882270813
+DETR-VAD Base,val/detection_f1,2981,0.27040114998817444
+DETR-VAD Base,val/detection_f1,3194,0.2697254419326782
+DETR-VAD Base,val/detection_f1,3407,0.26910823583602905
+DETR-VAD Base,val/detection_f1,3620,0.2696835994720459
+Encoder-Only Decoder Base,val/loss,425,0.0177001953125
+Encoder-Only Decoder Base,val/loss,851,0.01863606832921505
+Encoder-Only Decoder Base,val/loss,1277,0.02180989645421505
+Encoder-Only Decoder Base,val/loss,1703,0.02718099020421505
+Encoder-Only Decoder Base,val/loss,2129,0.0331217460334301
+Encoder-Only Decoder Base,val/loss,2555,0.038818359375
+Encoder-Only Decoder Base,val/loss,2981,0.0428873710334301
+Encoder-Only Decoder Base,val/loss,3407,0.04638671875
+Encoder-Only Decoder Base,val/loss,3833,0.048583984375
+Encoder-Only Decoder Base,val/loss,4259,0.0502115897834301
+Encoder-Only Decoder Base,val/loss,4685,0.0513509102165699
+Encoder-Only Decoder Base,val/loss,5111,0.0516764335334301
+Encoder-Only Decoder Base,val/loss,5537,0.0511881522834301
+Encoder-Only Decoder Base,val/loss,5963,0.051025390625
+Encoder-Only Decoder Base,val/loss,6389,0.051025390625
+Encoder-Only Decoder Base,val/accuracy,425,0.9227727055549622
+Encoder-Only Decoder Base,val/accuracy,851,0.9212427735328674
+Encoder-Only Decoder Base,val/accuracy,1277,0.92745041847229
+Encoder-Only Decoder Base,val/accuracy,1703,0.929239809513092
+Encoder-Only Decoder Base,val/accuracy,2129,0.9320501685142517
+Encoder-Only Decoder Base,val/accuracy,2555,0.9348466396331787
+Encoder-Only Decoder Base,val/accuracy,2981,0.9357311725616455
+Encoder-Only Decoder Base,val/accuracy,3407,0.9365107417106628
+Encoder-Only Decoder Base,val/accuracy,3833,0.9369612336158752
+Encoder-Only Decoder Base,val/accuracy,4259,0.9369845986366272
+Encoder-Only Decoder Base,val/accuracy,4685,0.9366770386695862
+Encoder-Only Decoder Base,val/accuracy,5111,0.9366199970245361
+Encoder-Only Decoder Base,val/accuracy,5537,0.9352988600730896
+Encoder-Only Decoder Base,val/accuracy,5963,0.9351234436035156
+Encoder-Only Decoder Base,val/accuracy,6389,0.9352622032165527
+Encoder-Only Decoder Base,val/precision,425,0.9694254398345947
+Encoder-Only Decoder Base,val/precision,851,0.9729360342025757
+Encoder-Only Decoder Base,val/precision,1277,0.9695190191268921
+Encoder-Only Decoder Base,val/precision,1703,0.9670826196670532
+Encoder-Only Decoder Base,val/precision,2129,0.9615373015403748
+Encoder-Only Decoder Base,val/precision,2555,0.9561428427696228
+Encoder-Only Decoder Base,val/precision,2981,0.9526468515396118
+Encoder-Only Decoder Base,val/precision,3407,0.950732409954071
+Encoder-Only Decoder Base,val/precision,3833,0.9492025971412659
+Encoder-Only Decoder Base,val/precision,4259,0.9492200016975403
+Encoder-Only Decoder Base,val/precision,4685,0.9496729373931885
+Encoder-Only Decoder Base,val/precision,5111,0.950960099697113
+Encoder-Only Decoder Base,val/precision,5537,0.9542077779769897
+Encoder-Only Decoder Base,val/precision,5963,0.9552217125892639
+Encoder-Only Decoder Base,val/precision,6389,0.9556769132614136
+Encoder-Only Decoder Base,val/recall,425,0.8530754446983337
+Encoder-Only Decoder Base,val/recall,851,0.8462680578231812
+Encoder-Only Decoder Base,val/recall,1277,0.8638569712638855
+Encoder-Only Decoder Base,val/recall,1703,0.8703516721725464
+Encoder-Only Decoder Base,val/recall,2129,0.8823485970497131
+Encoder-Only Decoder Base,val/recall,2555,0.894372820854187
+Encoder-Only Decoder Base,val/recall,2981,0.9000781774520874
+Encoder-Only Decoder Base,val/recall,3407,0.9039351344108582
+Encoder-Only Decoder Base,val/recall,3833,0.9066275954246521
+Encoder-Only Decoder Base,val/recall,4259,0.9066627621650696
+Encoder-Only Decoder Base,val/recall,4685,0.9054513573646545
+Encoder-Only Decoder Base,val/recall,5111,0.9039546847343445
+Encoder-Only Decoder Base,val/recall,5537,0.8974325656890869
+Encoder-Only Decoder Base,val/recall,5963,0.8959710597991943
+Encoder-Only Decoder Base,val/recall,6389,0.8958303928375244
+Encoder-Only Decoder Base,val/f1,425,0.9075364470481873
+Encoder-Only Decoder Base,val/f1,851,0.9051922559738159
+Encoder-Only Decoder Base,val/f1,1277,0.9136432409286499
+Encoder-Only Decoder Base,val/f1,1703,0.9161710143089294
+Encoder-Only Decoder Base,val/f1,2129,0.9202424883842468
+Encoder-Only Decoder Base,val/f1,2555,0.9242268800735474
+Encoder-Only Decoder Base,val/f1,2981,0.9256167411804199
+Encoder-Only Decoder Base,val/f1,3407,0.9267433881759644
+Encoder-Only Decoder Base,val/f1,3833,0.9274267554283142
+Encoder-Only Decoder Base,val/f1,4259,0.9274534583091736
+Encoder-Only Decoder Base,val/f1,4685,0.9270350933074951
+Encoder-Only Decoder Base,val/f1,5111,0.9268618226051331
+Encoder-Only Decoder Base,val/f1,5537,0.9249497652053833
+Encoder-Only Decoder Base,val/f1,5963,0.9246481657028198
+Encoder-Only Decoder Base,val/f1,6389,0.9247864484786987
+Encoder-Only Decoder Base,val/auc_roc,425,0.9861227869987488
+Encoder-Only Decoder Base,val/auc_roc,851,0.9867576360702515
+Encoder-Only Decoder Base,val/auc_roc,1277,0.9863485097885132
+Encoder-Only Decoder Base,val/auc_roc,1703,0.9857056736946106
+Encoder-Only Decoder Base,val/auc_roc,2129,0.9850711226463318
+Encoder-Only Decoder Base,val/auc_roc,2555,0.9848495125770569
+Encoder-Only Decoder Base,val/auc_roc,2981,0.9847639203071594
+Encoder-Only Decoder Base,val/auc_roc,3407,0.9847736358642578
+Encoder-Only Decoder Base,val/auc_roc,3833,0.9847487807273865
+Encoder-Only Decoder Base,val/auc_roc,4259,0.9847831726074219
+Encoder-Only Decoder Base,val/auc_roc,4685,0.9847773909568787
+Encoder-Only Decoder Base,val/auc_roc,5111,0.9848694801330566
+Encoder-Only Decoder Base,val/auc_roc,5537,0.9849438071250916
+Encoder-Only Decoder Base,val/auc_roc,5963,0.985005795955658
+Encoder-Only Decoder Base,val/auc_roc,6389,0.9851122498512268
+Encoder-Only Decoder Large v2,val/loss,851,0.019708573818206787
+Encoder-Only Decoder Large v2,val/loss,1703,0.030534282326698303
+Encoder-Only Decoder Large v2,val/loss,2555,0.04500154033303261
+Encoder-Only Decoder Large v2,val/loss,3407,0.05713147670030594
+Encoder-Only Decoder Large v2,val/loss,4259,0.06641653180122375
+Encoder-Only Decoder Large v2,val/loss,5111,0.07325761020183563
+Encoder-Only Decoder Large v2,val/loss,5963,0.07928145676851273
+Encoder-Only Decoder Large v2,val/loss,6815,0.08334703743457794
+Encoder-Only Decoder Large v2,val/loss,7667,0.08643606305122375
+Encoder-Only Decoder Large v2,val/loss,8519,0.08838918805122375
+Encoder-Only Decoder Large v2,val/accuracy,851,0.9443010091781616
+Encoder-Only Decoder Large v2,val/accuracy,1703,0.9445878863334656
+Encoder-Only Decoder Large v2,val/accuracy,2555,0.9460771083831787
+Encoder-Only Decoder Large v2,val/accuracy,3407,0.9465160965919495
+Encoder-Only Decoder Large v2,val/accuracy,4259,0.9466623663902283
+Encoder-Only Decoder Large v2,val/accuracy,5111,0.9460249543190002
+Encoder-Only Decoder Large v2,val/accuracy,5963,0.946312427520752
+Encoder-Only Decoder Large v2,val/accuracy,6815,0.946287214756012
+Encoder-Only Decoder Large v2,val/accuracy,7667,0.9463810920715332
+Encoder-Only Decoder Large v2,val/accuracy,8519,0.9464164972305298
+Encoder-Only Decoder Large v2,val/precision,851,0.9507988095283508
+Encoder-Only Decoder Large v2,val/precision,1703,0.9535452723503113
+Encoder-Only Decoder Large v2,val/precision,2555,0.9494143724441528
+Encoder-Only Decoder Large v2,val/precision,3407,0.9468177556991577
+Encoder-Only Decoder Large v2,val/precision,4259,0.9465397596359253
+Encoder-Only Decoder Large v2,val/precision,5111,0.9465783834457397
+Encoder-Only Decoder Large v2,val/precision,5963,0.9456307888031006
+Encoder-Only Decoder Large v2,val/precision,6815,0.945128858089447
+Encoder-Only Decoder Large v2,val/precision,7667,0.9446824789047241
+Encoder-Only Decoder Large v2,val/precision,8519,0.944791316986084
+Encoder-Only Decoder Large v2,val/recall,851,0.9181131720542908
+Encoder-Only Decoder Large v2,val/recall,1703,0.9158921241760254
+Encoder-Only Decoder Large v2,val/recall,2555,0.9239577651023865
+Encoder-Only Decoder Large v2,val/recall,3407,0.9278648495674133
+Encoder-Only Decoder Large v2,val/recall,4259,0.9285327792167664
+Encoder-Only Decoder Large v2,val/recall,5111,0.9269177317619324
+Encoder-Only Decoder Large v2,val/recall,5963,0.9286672472953796
+Encoder-Only Decoder Large v2,val/recall,6815,0.9291617274284363
+Encoder-Only Decoder Large v2,val/recall,7667,0.9298849105834961
+Encoder-Only Decoder Large v2,val/recall,8519,0.9298515319824219
+Encoder-Only Decoder Large v2,val/f1,851,0.934170126914978
+Encoder-Only Decoder Large v2,val/f1,1703,0.9343394637107849
+Encoder-Only Decoder Large v2,val/f1,2555,0.9365131258964539
+Encoder-Only Decoder Large v2,val/f1,3407,0.9372454881668091
+Encoder-Only Decoder Large v2,val/f1,4259,0.9374498128890991
+Encoder-Only Decoder Large v2,val/f1,5111,0.9366449117660522
+Encoder-Only Decoder Large v2,val/f1,5963,0.9370722770690918
+Encoder-Only Decoder Large v2,val/f1,6815,0.9370772838592529
+Encoder-Only Decoder Large v2,val/f1,7667,0.9372252821922302
+Encoder-Only Decoder Large v2,val/f1,8519,0.9372618794441223
+Encoder-Only Decoder Large v2,val/auc_roc,851,0.988384485244751
+Encoder-Only Decoder Large v2,val/auc_roc,1703,0.9883568286895752
+Encoder-Only Decoder Large v2,val/auc_roc,2555,0.9882937669754028
+Encoder-Only Decoder Large v2,val/auc_roc,3407,0.9880934953689575
+Encoder-Only Decoder Large v2,val/auc_roc,4259,0.98787522315979
+Encoder-Only Decoder Large v2,val/auc_roc,5111,0.9876391291618347
+Encoder-Only Decoder Large v2,val/auc_roc,5963,0.9873761534690857
+Encoder-Only Decoder Large v2,val/auc_roc,6815,0.9871947765350342
+Encoder-Only Decoder Large v2,val/auc_roc,7667,0.9870571494102478
+Encoder-Only Decoder Large v2,val/auc_roc,8519,0.9869256019592285
+Encoder-Only Linear Base,val/loss,212,0.03515625
+Encoder-Only Linear Base,val/loss,425,0.029052734375
+Encoder-Only Linear Base,val/loss,638,0.0272216796875
+Encoder-Only Linear Base,val/loss,851,0.0263671875
+Encoder-Only Linear Base,val/loss,1064,0.0260009765625
+Encoder-Only Linear Base,val/loss,1277,0.02587890625
+Encoder-Only Linear Base,val/loss,1490,0.02587890625
+Encoder-Only Linear Base,val/loss,1703,0.0257568359375
+Encoder-Only Linear Base,val/loss,1916,0.0257568359375
+Encoder-Only Linear Base,val/loss,2129,0.0257568359375
+Encoder-Only Linear Base,val/loss,2342,0.0257568359375
+Encoder-Only Linear Base,val/loss,2555,0.0257568359375
+Encoder-Only Linear Base,val/loss,2768,0.0257568359375
+Encoder-Only Linear Base,val/loss,2981,0.0257568359375
+Encoder-Only Linear Base,val/loss,3194,0.0257568359375
+Encoder-Only Linear Base,val/loss,3407,0.0257568359375
+Encoder-Only Linear Base,val/loss,3620,0.0257568359375
+Encoder-Only Linear Base,val/loss,3833,0.0257568359375
+Encoder-Only Linear Base,val/loss,4046,0.0257568359375
+Encoder-Only Linear Base,val/loss,4259,0.0257568359375
+Encoder-Only Linear Base,val/accuracy,212,0.8353774547576904
+Encoder-Only Linear Base,val/accuracy,425,0.8696900010108948
+Encoder-Only Linear Base,val/accuracy,638,0.8793542981147766
+Encoder-Only Linear Base,val/accuracy,851,0.8830183148384094
+Encoder-Only Linear Base,val/accuracy,1064,0.8856222033500671
+Encoder-Only Linear Base,val/accuracy,1277,0.8863279223442078
+Encoder-Only Linear Base,val/accuracy,1490,0.8865987658500671
+Encoder-Only Linear Base,val/accuracy,1703,0.8869426250457764
+Encoder-Only Linear Base,val/accuracy,1916,0.8871745467185974
+Encoder-Only Linear Base,val/accuracy,2129,0.887291669845581
+Encoder-Only Linear Base,val/accuracy,2342,0.8873253464698792
+Encoder-Only Linear Base,val/accuracy,2555,0.8873177170753479
+Encoder-Only Linear Base,val/accuracy,2768,0.887546718120575
+Encoder-Only Linear Base,val/accuracy,2981,0.8875129222869873
+Encoder-Only Linear Base,val/accuracy,3194,0.8875415325164795
+Encoder-Only Linear Base,val/accuracy,3407,0.8876146674156189
+Encoder-Only Linear Base,val/accuracy,3620,0.8876119256019592
+Encoder-Only Linear Base,val/accuracy,3833,0.8876898288726807
+Encoder-Only Linear Base,val/accuracy,4046,0.8877759575843811
+Encoder-Only Linear Base,val/accuracy,4259,0.8877473473548889
+Encoder-Only Linear Base,val/precision,212,0.9522139430046082
+Encoder-Only Linear Base,val/precision,425,0.964484453201294
+Encoder-Only Linear Base,val/precision,638,0.9674713611602783
+Encoder-Only Linear Base,val/precision,851,0.9686470031738281
+Encoder-Only Linear Base,val/precision,1064,0.9689373970031738
+Encoder-Only Linear Base,val/precision,1277,0.9690017104148865
+Encoder-Only Linear Base,val/precision,1490,0.9690478444099426
+Encoder-Only Linear Base,val/precision,1703,0.9689430594444275
+Encoder-Only Linear Base,val/precision,1916,0.9689784049987793
+Encoder-Only Linear Base,val/precision,2129,0.9689533114433289
+Encoder-Only Linear Base,val/precision,2342,0.9688563942909241
+Encoder-Only Linear Base,val/precision,2555,0.9687128663063049
+Encoder-Only Linear Base,val/precision,2768,0.9685912132263184
+Encoder-Only Linear Base,val/precision,2981,0.9686522483825684
+Encoder-Only Linear Base,val/precision,3194,0.9686691761016846
+Encoder-Only Linear Base,val/precision,3407,0.968554675579071
+Encoder-Only Linear Base,val/precision,3620,0.9684760570526123
+Encoder-Only Linear Base,val/precision,3833,0.9684262275695801
+Encoder-Only Linear Base,val/precision,4046,0.9683985710144043
+Encoder-Only Linear Base,val/precision,4259,0.9683959484100342
+Encoder-Only Linear Base,val/recall,212,0.6528272032737732
+Encoder-Only Linear Base,val/recall,425,0.7259892821311951
+Encoder-Only Linear Base,val/recall,638,0.7466643452644348
+Encoder-Only Linear Base,val/recall,851,0.7544355392456055
+Encoder-Only Linear Base,val/recall,1064,0.7604036331176758
+Encoder-Only Linear Base,val/recall,1277,0.7620323896408081
+Encoder-Only Linear Base,val/recall,1490,0.7626394629478455
+Encoder-Only Linear Base,val/recall,1703,0.7635470032691956
+Encoder-Only Linear Base,val/recall,1916,0.7640698552131653
+Encoder-Only Linear Base,val/recall,2129,0.7643703818321228
+Encoder-Only Linear Base,val/recall,2342,0.7645326256752014
+Encoder-Only Linear Base,val/recall,2555,0.7646348476409912
+Encoder-Only Linear Base,val/recall,2768,0.7652839422225952
+Encoder-Only Linear Base,val/recall,2981,0.7651516795158386
+Encoder-Only Linear Base,val/recall,3194,0.7652058005332947
+Encoder-Only Linear Base,val/recall,3407,0.7654762268066406
+Encoder-Only Linear Base,val/recall,3620,0.765536367893219
+Encoder-Only Linear Base,val/recall,3833,0.7657647132873535
+Encoder-Only Linear Base,val/recall,4046,0.7659931182861328
+Encoder-Only Linear Base,val/recall,4259,0.7659270167350769
+Encoder-Only Linear Base,val/f1,212,0.7745984196662903
+Encoder-Only Linear Base,val/f1,425,0.828413188457489
+Encoder-Only Linear Base,val/f1,638,0.8428462147712708
+Encoder-Only Linear Base,val/f1,851,0.848226010799408
+Encoder-Only Linear Base,val/f1,1064,0.8520974516868591
+Encoder-Only Linear Base,val/f1,1277,0.8531440496444702
+Encoder-Only Linear Base,val/f1,1490,0.8535422086715698
+Encoder-Only Linear Base,val/f1,1703,0.8540695905685425
+Encoder-Only Linear Base,val/f1,1916,0.8544103503227234
+Encoder-Only Linear Base,val/f1,2129,0.8545884490013123
+Encoder-Only Linear Base,val/f1,2342,0.8546521663665771
+Encoder-Only Linear Base,val/f1,2555,0.854660153388977
+Encoder-Only Linear Base,val/f1,2768,0.8550180792808533
+Encoder-Only Linear Base,val/f1,2981,0.8549593091011047
+Encoder-Only Linear Base,val/f1,3194,0.8549996614456177
+Encoder-Only Linear Base,val/f1,3407,0.8551238179206848
+Encoder-Only Linear Base,val/f1,3620,0.855130672454834
+Encoder-Only Linear Base,val/f1,3833,0.8552537560462952
+Encoder-Only Linear Base,val/f1,4046,0.8553853631019592
+Encoder-Only Linear Base,val/f1,4259,0.8553431034088135
+Encoder-Only Linear Base,val/auc_roc,212,0.934232771396637
+Encoder-Only Linear Base,val/auc_roc,425,0.956981897354126
+Encoder-Only Linear Base,val/auc_roc,638,0.9624393582344055
+Encoder-Only Linear Base,val/auc_roc,851,0.9645847082138062
+Encoder-Only Linear Base,val/auc_roc,1064,0.9658635258674622
+Encoder-Only Linear Base,val/auc_roc,1277,0.966333270072937
+Encoder-Only Linear Base,val/auc_roc,1490,0.966519296169281
+Encoder-Only Linear Base,val/auc_roc,1703,0.9666146039962769
+Encoder-Only Linear Base,val/auc_roc,1916,0.9666462540626526
+Encoder-Only Linear Base,val/auc_roc,2129,0.9666706919670105
+Encoder-Only Linear Base,val/auc_roc,2342,0.9666613340377808
+Encoder-Only Linear Base,val/auc_roc,2555,0.966667115688324
+Encoder-Only Linear Base,val/auc_roc,2768,0.9666860699653625
+Encoder-Only Linear Base,val/auc_roc,2981,0.9666894674301147
+Encoder-Only Linear Base,val/auc_roc,3194,0.9666852951049805
+Encoder-Only Linear Base,val/auc_roc,3407,0.966690182685852
+Encoder-Only Linear Base,val/auc_roc,3620,0.9667014479637146
+Encoder-Only Linear Base,val/auc_roc,3833,0.9667199850082397
+Encoder-Only Linear Base,val/auc_roc,4046,0.966725766658783
+Encoder-Only Linear Base,val/auc_roc,4259,0.9667272567749023
+WhisperSeg Base,val/loss,850,1.5562517642974854
+WhisperSeg Base,val/loss,1701,1.4569454193115234
+WhisperSeg Base,val/loss,2552,1.3624520301818848
+WhisperSeg Base,val/loss,3403,1.31207275390625
+WhisperSeg Base,val/loss,4254,1.2853091955184937
+WhisperSeg Base,val/loss,5105,1.2644672393798828
+WhisperSeg Base,val/loss,5956,1.2507641315460205
+WhisperSeg Base,val/loss,6807,1.2346912622451782
+WhisperSeg Base,val/loss,7658,1.239943027496338
+WhisperSeg Base,val/loss,8509,1.2357301712036133
+WhisperSeg Base,val/segment_precision,850,0.6181917786598206
+WhisperSeg Base,val/segment_precision,1701,0.6923462748527527
+WhisperSeg Base,val/segment_precision,2552,0.69847172498703
+WhisperSeg Base,val/segment_precision,3403,0.7121597528457642
+WhisperSeg Base,val/segment_precision,4254,0.7209728360176086
+WhisperSeg Base,val/segment_precision,5105,0.7227099537849426
+WhisperSeg Base,val/segment_precision,5956,0.710245668888092
+WhisperSeg Base,val/segment_precision,6807,0.7240838408470154
+WhisperSeg Base,val/segment_precision,7658,0.7080076932907104
+WhisperSeg Base,val/segment_precision,8509,0.7110012173652649
+WhisperSeg Base,val/segment_recall,850,0.575949490070343
+WhisperSeg Base,val/segment_recall,1701,0.6624688506126404
+WhisperSeg Base,val/segment_recall,2552,0.6678547859191895
+WhisperSeg Base,val/segment_recall,3403,0.6922706365585327
+WhisperSeg Base,val/segment_recall,4254,0.7098889350891113
+WhisperSeg Base,val/segment_recall,5105,0.6996848583221436
+WhisperSeg Base,val/segment_recall,5956,0.6517350673675537
+WhisperSeg Base,val/segment_recall,6807,0.6732741594314575
+WhisperSeg Base,val/segment_recall,7658,0.6629559993743896
+WhisperSeg Base,val/segment_recall,8509,0.6562097072601318
+WhisperSeg Base,val/segment_f1,850,0.5816699266433716
+WhisperSeg Base,val/segment_f1,1701,0.6642839908599854
+WhisperSeg Base,val/segment_f1,2552,0.6707373261451721
+WhisperSeg Base,val/segment_f1,3403,0.6905134320259094
+WhisperSeg Base,val/segment_f1,4254,0.7038140892982483
+WhisperSeg Base,val/segment_f1,5105,0.6993724703788757
+WhisperSeg Base,val/segment_f1,5956,0.6657084226608276
+WhisperSeg Base,val/segment_f1,6807,0.6845410466194153
+WhisperSeg Base,val/segment_f1,7658,0.6714204549789429
+WhisperSeg Base,val/segment_f1,8509,0.6688348054885864
+WhisperSeg Base,val/frame_precision,850,0.7774747610092163
+WhisperSeg Base,val/frame_precision,1701,0.8062843680381775
+WhisperSeg Base,val/frame_precision,2552,0.8086845874786377
+WhisperSeg Base,val/frame_precision,3403,0.8186958432197571
+WhisperSeg Base,val/frame_precision,4254,0.8246875405311584
+WhisperSeg Base,val/frame_precision,5105,0.8260990977287292
+WhisperSeg Base,val/frame_precision,5956,0.8004160523414612
+WhisperSeg Base,val/frame_precision,6807,0.815703809261322
+WhisperSeg Base,val/frame_precision,7658,0.8108229041099548
+WhisperSeg Base,val/frame_precision,8509,0.8078144192695618
+WhisperSeg Base,val/frame_recall,850,0.7061275243759155
+WhisperSeg Base,val/frame_recall,1701,0.8240180611610413
+WhisperSeg Base,val/frame_recall,2552,0.8384630084037781
+WhisperSeg Base,val/frame_recall,3403,0.8398086428642273
+WhisperSeg Base,val/frame_recall,4254,0.8368759751319885
+WhisperSeg Base,val/frame_recall,5105,0.8325546979904175
+WhisperSeg Base,val/frame_recall,5956,0.7830061316490173
+WhisperSeg Base,val/frame_recall,6807,0.8169411420822144
+WhisperSeg Base,val/frame_recall,7658,0.8083931803703308
+WhisperSeg Base,val/frame_recall,8509,0.7946231365203857
+WhisperSeg Base,val/frame_f1,850,0.7230125069618225
+WhisperSeg Base,val/frame_f1,1701,0.8051427006721497
+WhisperSeg Base,val/frame_f1,2552,0.814581036567688
+WhisperSeg Base,val/frame_f1,3403,0.8212010860443115
+WhisperSeg Base,val/frame_f1,4254,0.8232427835464478
+WhisperSeg Base,val/frame_f1,5105,0.8226865530014038
+WhisperSeg Base,val/frame_f1,5956,0.7801613211631775
+WhisperSeg Base,val/frame_f1,6807,0.8065057992935181
+WhisperSeg Base,val/frame_f1,7658,0.7996535301208496
+WhisperSeg Base,val/frame_f1,8509,0.790374755859375
+WhisperSeg Base,val/der,850,0.05859832465648651
+WhisperSeg Base,val/der,1701,0.03953417018055916
+WhisperSeg Base,val/der,2552,0.037513189017772675
+WhisperSeg Base,val/der,3403,0.033897846937179565
+WhisperSeg Base,val/der,4254,0.03169579803943634
+WhisperSeg Base,val/der,5105,0.03127589449286461
+WhisperSeg Base,val/der,5956,0.044358886778354645
+WhisperSeg Base,val/der,6807,0.03626609221100807
+WhisperSeg Base,val/der,7658,0.039585549384355545
+WhisperSeg Base,val/der,8509,0.04179046303033829

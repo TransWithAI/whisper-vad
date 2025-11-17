@@ -1,0 +1,64 @@
+# Configuration for DETR-style Set-Prediction VAD (Refinement II)
+
+# Model configuration
+model:
+  whisper_model_name: "openai/whisper-base"
+  freeze_encoder: true  # Freeze encoder to maintain learned audio processing
+  num_queries: 20        # Number of event queries (max speech segments)
+  decoder_layers: 3      # Number of decoder layers
+  decoder_heads: 8       # Number of attention heads
+  decoder_ff_dim: 2048   # Feed-forward dimension
+  dropout: 0.1
+
+# Data configuration
+data:
+  dataset_path: "/path/to/your/vad_dataset"
+  num_workers: 32
+  max_train_samples: null  # Set a number for debugging
+  max_val_samples: null    # Set a number for debugging
+  # Streaming configuration (NEW)
+  streaming: false  # Set to false for proper epoch progress tracking
+  # If streaming is true, provide dataset lengths for progress bars:
+  train_dataset_length: 54469  # Your training dataset has 54469 samples
+  val_dataset_length: 6053      # Your validation dataset has 6053 samples
+
+# Training configuration
+training:
+  batch_size: 256          # Smaller batch size due to model complexity
+  learning_rate: 0.0015
+  weight_decay: 0.00001
+  warmup_epochs: 0.5       # More warmup for DETR
+  max_epochs: 50
+  gradient_clip_val: 0.1
+  accumulate_grad_batches: 1
+  val_check_interval: 1.0     # Validate twice per epoch
+  log_every_n_steps: 10
+
+# Loss configuration
+loss:
+  cost_class: 1.0   # Classification loss weight
+  cost_span: 5.0    # L1 span regression loss weight
+  cost_giou: 2.0    # GIoU loss weight
+
+# Monitoring
+monitor_metric: "val/detection_f1"
+monitor_mode: "max"
+save_top_k: 5
+
+# Early stopping
+early_stopping:
+  enabled: true
+  patience: 3  # DETR needs more patience
+
+# Hardware
+accelerator: "auto"  # auto, gpu, cpu
+devices: 1
+precision: bf16-true  # 16 for mixed precision, 32 for full precision
+
+# Logging
+logger: "tensorboard"  # tensorboard or wandb
+project_name: "whisper-vad"
+experiment_name: "detr_base"
+
+# Random seed
+seed: 42

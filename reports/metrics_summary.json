@@ -1,0 +1,367 @@
+[
+  {
+  "experiment": "detr_vad/detr_base",
+    "label": "DETR-VAD Base",
+    "metrics": {
+      "val/loss": {
+        "final": {
+          "step": 3620,
+          "value": 1.7226115465164185
+        },
+        "best": {
+          "step": 2981,
+          "value": 1.7143712043762207
+        },
+        "improvement_from_first": -0.517499566078186
+      },
+      "val/detection_precision": {
+        "final": {
+          "step": 3620,
+          "value": 0.17306768894195557
+        },
+        "best": {
+          "step": 2981,
+          "value": 0.17345471680164337
+        },
+        "improvement_from_first": 0.06779424846172333
+      },
+      "val/detection_recall": {
+        "final": {
+          "step": 3620,
+          "value": 0.6104995608329773
+        },
+        "best": {
+          "step": 2342,
+          "value": 0.6138865351676941
+        },
+        "improvement_from_first": 0.15410667657852173
+      },
+      "val/detection_f1": {
+        "final": {
+          "step": 3620,
+          "value": 0.2696835994720459
+        },
+        "best": {
+          "step": 2981,
+          "value": 0.27040114998817444
+        },
+        "improvement_from_first": 0.09859995543956757
+      }
+    },
+    "total_steps": 3620
+  },
+  {
+  "experiment": "encoder_only_decoder/encoder_decoder_base",
+    "label": "Encoder-Only Decoder Base",
+    "metrics": {
+      "val/loss": {
+        "final": {
+          "step": 6389,
+          "value": 0.051025390625
+        },
+        "best": {
+          "step": 425,
+          "value": 0.0177001953125
+        },
+        "improvement_from_first": 0.0333251953125
+      },
+      "val/accuracy": {
+        "final": {
+          "step": 6389,
+          "value": 0.9352622032165527
+        },
+        "best": {
+          "step": 4259,
+          "value": 0.9369845986366272
+        },
+        "improvement_from_first": 0.012489497661590576
+      },
+      "val/precision": {
+        "final": {
+          "step": 6389,
+          "value": 0.9556769132614136
+        },
+        "best": {
+          "step": 851,
+          "value": 0.9729360342025757
+        },
+        "improvement_from_first": -0.013748526573181152
+      },
+      "val/recall": {
+        "final": {
+          "step": 6389,
+          "value": 0.8958303928375244
+        },
+        "best": {
+          "step": 4259,
+          "value": 0.9066627621650696
+        },
+        "improvement_from_first": 0.042754948139190674
+      },
+      "val/f1": {
+        "final": {
+          "step": 6389,
+          "value": 0.9247864484786987
+        },
+        "best": {
+          "step": 4259,
+          "value": 0.9274534583091736
+        },
+        "improvement_from_first": 0.017250001430511475
+      },
+      "val/auc_roc": {
+        "final": {
+          "step": 6389,
+          "value": 0.9851122498512268
+        },
+        "best": {
+          "step": 851,
+          "value": 0.9867576360702515
+        },
+        "improvement_from_first": -0.0010105371475219727
+      }
+    },
+    "total_steps": 6389
+  },
+  {
+  "experiment": "encoder_only_decoder/encoder_decoder_large_v2",
+    "label": "Encoder-Only Decoder Large v2",
+    "metrics": {
+      "val/loss": {
+        "final": {
+          "step": 8519,
+          "value": 0.08838918805122375
+        },
+        "best": {
+          "step": 851,
+          "value": 0.019708573818206787
+        },
+        "improvement_from_first": 0.06868061423301697
+      },
+      "val/accuracy": {
+        "final": {
+          "step": 8519,
+          "value": 0.9464164972305298
+        },
+        "best": {
+          "step": 4259,
+          "value": 0.9466623663902283
+        },
+        "improvement_from_first": 0.002115488052368164
+      },
+      "val/precision": {
+        "final": {
+          "step": 8519,
+          "value": 0.944791316986084
+        },
+        "best": {
+          "step": 1703,
+          "value": 0.9535452723503113
+        },
+        "improvement_from_first": -0.006007492542266846
+      },
+      "val/recall": {
+        "final": {
+          "step": 8519,
+          "value": 0.9298515319824219
+        },
+        "best": {
+          "step": 7667,
+          "value": 0.9298849105834961
+        },
+        "improvement_from_first": 0.011738359928131104
+      },
+      "val/f1": {
+        "final": {
+          "step": 8519,
+          "value": 0.9372618794441223
+        },
+        "best": {
+          "step": 4259,
+          "value": 0.9374498128890991
+        },
+        "improvement_from_first": 0.003091752529144287
+      },
+      "val/auc_roc": {
+        "final": {
+          "step": 8519,
+          "value": 0.9869256019592285
+        },
+        "best": {
+          "step": 851,
+          "value": 0.988384485244751
+        },
+        "improvement_from_first": -0.001458883285522461
+      }
+    },
+    "total_steps": 8519
+  },
+  {
+  "experiment": "encoder_only_linear/encoder_linear_base",
+    "label": "Encoder-Only Linear Base",
+    "metrics": {
+      "val/loss": {
+        "final": {
+          "step": 4259,
+          "value": 0.0257568359375
+        },
+        "best": {
+          "step": 1703,
+          "value": 0.0257568359375
+        },
+        "improvement_from_first": -0.0093994140625
+      },
+      "val/accuracy": {
+        "final": {
+          "step": 4259,
+          "value": 0.8877473473548889
+        },
+        "best": {
+          "step": 4046,
+          "value": 0.8877759575843811
+        },
+        "improvement_from_first": 0.052369892597198486
+      },
+      "val/precision": {
+        "final": {
+          "step": 4259,
+          "value": 0.9683959484100342
+        },
+        "best": {
+          "step": 1490,
+          "value": 0.9690478444099426
+        },
+        "improvement_from_first": 0.016182005405426025
+      },
+      "val/recall": {
+        "final": {
+          "step": 4259,
+          "value": 0.7659270167350769
+        },
+        "best": {
+          "step": 4046,
+          "value": 0.7659931182861328
+        },
+        "improvement_from_first": 0.11309981346130371
+      },
+      "val/f1": {
+        "final": {
+          "step": 4259,
+          "value": 0.8553431034088135
+        },
+        "best": {
+          "step": 4046,
+          "value": 0.8553853631019592
+        },
+        "improvement_from_first": 0.0807446837425232
+      },
+      "val/auc_roc": {
+        "final": {
+          "step": 4259,
+          "value": 0.9667272567749023
+        },
+        "best": {
+          "step": 4259,
+          "value": 0.9667272567749023
+        },
+        "improvement_from_first": 0.03249448537826538
+      }
+    },
+    "total_steps": 4259
+  },
+  {
+    "experiment": "whisperseg/whisperseg_base",
+    "label": "WhisperSeg Base",
+    "metrics": {
+      "val/loss": {
+        "final": {
+          "step": 8509,
+          "value": 1.2357301712036133
+        },
+        "best": {
+          "step": 6807,
+          "value": 1.2346912622451782
+        },
+        "improvement_from_first": -0.32052159309387207
+      },
+      "val/segment_precision": {
+        "final": {
+          "step": 8509,
+          "value": 0.7110012173652649
+        },
+        "best": {
+          "step": 6807,
+          "value": 0.7240838408470154
+        },
+        "improvement_from_first": 0.09280943870544434
+      },
+      "val/segment_recall": {
+        "final": {
+          "step": 8509,
+          "value": 0.6562097072601318
+        },
+        "best": {
+          "step": 4254,
+          "value": 0.7098889350891113
+        },
+        "improvement_from_first": 0.08026021718978882
+      },
+      "val/segment_f1": {
+        "final": {
+          "step": 8509,
+          "value": 0.6688348054885864
+        },
+        "best": {
+          "step": 4254,
+          "value": 0.7038140892982483
+        },
+        "improvement_from_first": 0.08716487884521484
+      },
+      "val/frame_precision": {
+        "final": {
+          "step": 8509,
+          "value": 0.8078144192695618
+        },
+        "best": {
+          "step": 5105,
+          "value": 0.8260990977287292
+        },
+        "improvement_from_first": 0.03033965826034546
+      },
+      "val/frame_recall": {
+        "final": {
+          "step": 8509,
+          "value": 0.7946231365203857
+        },
+        "best": {
+          "step": 3403,
+          "value": 0.8398086428642273
+        },
+        "improvement_from_first": 0.08849561214447021
+      },
+      "val/frame_f1": {
+        "final": {
+          "step": 8509,
+          "value": 0.790374755859375
+        },
+        "best": {
+          "step": 4254,
+          "value": 0.8232427835464478
+        },
+        "improvement_from_first": 0.06736224889755249
+      },
+      "val/der": {
+        "final": {
+          "step": 8509,
+          "value": 0.04179046303033829
+        },
+        "best": {
+          "step": 5105,
+          "value": 0.03127589449286461
+        },
+        "improvement_from_first": -0.016807861626148224
+      }
+    },
+    "total_steps": 8509
+  }
+]
